@@ -8,7 +8,7 @@ arch=('any')
 url='https://github.com/sahlberg/libsmb2'
 license=('(L)GPL')
 options=(!strip libtool staticlibs)
-source=(${pkgname}::"git+https://github.com/Wolf3s/libsmb2.git#commit=67eea946886c63d5496fe11fb83839978b5ca1f9")
+source=(${pkgname}::"git+https://github.com/sahlberg/libsmb2.git")
 sha256sums=('SKIP')
 makedepends=('git' 'switch-pkg-config' 'devkitpro-pkgbuild-helpers')
 groups=('switch-portlibs')
